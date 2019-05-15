@@ -1,0 +1,332 @@
+/* positioning */
+.happy-div{
+    text-align: left;
+}
+.mother-div{
+    text-align: center;
+}
+.day-div{
+    text-align: right;
+}
+.end-div{
+    text-align:right;
+}
+
+/* original theme */
+
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+
+#card-container1{
+    margin:0;
+    padding:2rem;
+    background:#f45b697a;
+}
+
+#happy1{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#114B5F
+
+}
+#mothers1{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#290025
+}
+#day1{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#6B2737
+}
+#note1{
+    font-family: 'Indie Flower', cursive;
+    color:#35012C
+   
+}
+#end1{
+    font-family: 'Indie Flower', cursive;
+    
+}
+   
+
+/* Alternate Theme 1 */
+
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container2{
+    margin:0;
+    padding:2rem;
+    background:#DDE392;
+}
+
+#happy2{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#7D8570
+
+}
+#mothers2{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#646F58
+}
+#day2{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#484848
+}
+#note2{
+    font-family: 'Indie Flower', cursive;
+    color:#35012C
+   
+}
+#end2{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+/* Alternate Theme 2 */
+
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container3{
+    margin:0;
+    padding:2rem;
+    background:#FFFFB3;
+}
+
+#happy3{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#6E0D25
+
+}
+#mothers3{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#6A381F
+}
+#day3{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#ad1919
+}
+#note3{
+    font-family: 'Indie Flower', cursive;
+    color:#35012C
+   
+}
+#end3{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+/* alternate theme 3 */
+
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container4{
+    margin:0;
+    padding:2rem;
+    background:#000000;
+}
+
+#happy4{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#5f2139
+
+}
+#mothers4{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#f3a1bd
+}
+#day4{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#9c3d55
+}
+#note4{
+    font-family: 'Indie Flower', cursive;
+    color:#5f2139
+   
+}
+#end4{
+    font-family: 'Indie Flower', cursive;
+    color:#5f2139
+    
+}
+
+/* alternate theme 4 */
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container5{
+    margin:0;
+    padding:2rem;
+    background:#DBC7BE;
+}
+
+#happy5{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#EF959C
+
+}
+#mothers5{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#95ADB6
+}
+#day5{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#8DA1B9
+}
+#note5{
+    font-family: 'Indie Flower', cursive;
+   
+}
+#end5{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+/* alternate theme 5 */
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container6{
+    margin:0;
+    padding:2rem;
+    background:#ff146b;
+}
+
+#happy6{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#1BE7FF
+
+}
+#mothers6{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#6EEB83
+}
+#day6{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#14ff26
+}
+#note6{
+    font-family: 'Indie Flower', cursive;
+   
+}
+#end6{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+/* alternate theme 6 */
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;    
+}
+#card-container7{
+    margin:0;
+    padding:2rem;
+    background:#000000
+}
+
+#happy7{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#FF9505
+
+}
+#mothers7{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#FF5714
+}
+#day7{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#016FB9
+}
+#note7{
+    font-family: 'Indie Flower', cursive;
+    color:#c10000
+   
+}
+#end7{
+    font-family: 'Indie Flower', cursive;
+    color:#c10000
+    
+}
+
+/* alternate theme 7 */
+body{
+    margin-left:17rem!important;
+    margin-right:17rem!important;
+    margin-top:3rem!important;
+    
+}
+#card-container8{
+    margin:0;
+    padding:2rem;
+    background:#6E0E0A
+}
+
+#happy8{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#F2BB05
+
+}
+#mothers8{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#FF5714
+}
+#day8{
+    font-size: 9rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#F0F0C9
+}
+#note8{
+    font-family: 'Indie Flower', cursive;
+    color:#fd9595
+   
+}
+#end8{
+    font-family: 'Indie Flower', cursive;
+    color:#fd9595
+    
+}
+

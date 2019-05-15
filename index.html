@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mother's Day Card</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+    <div class='body'>
+        <div id='card-container'>
+            <div class='row happy-div'>
+                <div class='col'>
+                    <h1 id='happy'>Happy </h1>
+                </div>
+            </div>
+            <div class='row mother-div'>
+                <div class='col'>
+                    <h1 id='mothers'>Mother's</h1>
+                </div>
+            </div>
+            <div class='row day-div'>
+                <div class='col'>
+                    <h1 id='day'>Day!</h1>
+                </div>
+            </div>
+            <div class='row note-div'>
+                <div class='col'>
+                    <h3 id='note'>Mom, <br>
+                        I would not be where I am today without your dedication as a mother through the years. Thank you
+                        for all the love you've given and the sacrifices you've made.</h3>
+                </div>
+            </div>
+            <div class='row end-div'>
+                <div class='col'>
+                    <h4 id='end'>- Love Derrick</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<!-- Assigning class theme before page loads -->
+<script>
+    const assignTheme = () =>{
+        const randoCommando = Math.floor(Math.random()*8+1)
+        if(randoCommando === 1){
+            document.getElementById('card-container').id = 'card-container1';
+            document.getElementById('happy').id = 'happy1';
+            document.getElementById('mothers').id = 'mothers1';
+            document.getElementById('day').id = 'day1';
+            document.getElementById('note').id = 'note1';
+            document.getElementById('end').id = 'end1';
+            document.body.style.background = "#ffd89dc9";
+            document.body.style.border ='solid #11001C 1.5rem'
+
+        }else if(randoCommando === 2){
+            document.getElementById('card-container').id = 'card-container2';
+            document.getElementById('happy').id = 'happy2';
+            document.getElementById('mothers').id = 'mothers2';
+            document.getElementById('day').id = 'day2';
+            document.getElementById('note').id = 'note2';
+            document.getElementById('end').id = 'end2';
+            document.body.style.background = "#19251b";
+            document.body.style.border ='solid #11001C 1.5rem'
+
+        }else if(randoCommando === 3){
+            document.getElementById('card-container').id = 'card-container3';
+            document.getElementById('happy').id = 'happy3';
+            document.getElementById('mothers').id = 'mothers3';
+            document.getElementById('day').id = 'day3';
+            document.getElementById('note').id = 'note3';
+            document.getElementById('end').id = 'end3';
+            document.body.style.background = "#630101";
+            document.body.style.border ='solid #11001C 1.5rem'
+
+        }else if(randoCommando === 4){
+            document.getElementById('card-container').id = 'card-container4';
+            document.getElementById('happy').id = 'happy4';
+            document.getElementById('mothers').id = 'mothers4';
+            document.getElementById('day').id = 'day4';
+            document.getElementById('note').id = 'note4';
+            document.getElementById('end').id = 'end4';
+            document.body.style.background = "#5f2139";
+            document.body.style.border ='solid #11001C 1.5rem'
+        }else if(randoCommando === 5){
+            document.getElementById('card-container').id = 'card-container5';
+            document.getElementById('happy').id = 'happy5';
+            document.getElementById('mothers').id = 'mothers5';
+            document.getElementById('day').id = 'day5';
+            document.getElementById('note').id = 'note5';
+            document.getElementById('end').id = 'end5';
+            document.body.style.background = "#CBB3BF";
+            document.body.style.border ='solid #11001C 1.5rem'
+        }else if(randoCommando === 6){
+            document.getElementById('card-container').id = 'card-container6';
+            document.getElementById('happy').id = 'happy6';
+            document.getElementById('mothers').id = 'mothers6';
+            document.getElementById('day').id = 'day6';
+            document.getElementById('note').id = 'note6';
+            document.getElementById('end').id = 'end6';
+            document.body.style.background = "#ff1a44";
+            document.body.style.border ='solid #11001C 1.5rem'
+        }else if(randoCommando === 7){
+            document.getElementById('card-container').id = 'card-container7';
+            document.getElementById('happy').id = 'happy7';
+            document.getElementById('mothers').id = 'mothers7';
+            document.getElementById('day').id = 'day7';
+            document.getElementById('note').id = 'note7';
+            document.getElementById('end').id = 'end7';
+            document.body.style.background = "#353531";
+            document.body.style.border ='solid #fff36700 1.5rem'
+        }else if(randoCommando === 8){
+            document.getElementById('card-container').id = 'card-container8';
+            document.getElementById('happy').id = 'happy8';
+            document.getElementById('mothers').id = 'mothers8';
+            document.getElementById('day').id = 'day8';
+            document.getElementById('note').id = 'note8';
+            document.getElementById('end').id = 'end8';
+            document.body.style.background = "#54001f";
+            document.body.style.border ='solid #fff36700 1.5rem'
+       
+        }
+            
+    }
+    assignTheme();
+</script>
+</html>
